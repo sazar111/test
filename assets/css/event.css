@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.s__title {
+    text-shadow: -1px 5px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #000;
+    padding: 0 1vw;
+    color: black;
+    font-family: "Black Ops One", cursive;
+    writing-mode: lr-bt;
+    text-orientation: mixed;
+    background: #032357;
+    font-weight: 800;
+    font-size: 6vw;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+.sponsors {
+    background-color: #032357;
+    height: 100%;
+
+}
+
+.img {
+    max-width: 300px;
+}
+
+.p__title {
+    text-shadow: -1px 5px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #000;
+    padding: 0 1vw;
+    color: black;
+    font-family: "Black Ops One", cursive;
+    writing-mode: lr-bt;
+    text-orientation: mixed;
+    background: #e63946;
+    font-weight: 800;
+    font-size: 6vw;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+.e__title {
+    text-shadow: -1px 5px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #000;
+
+    color: black;
+    font-family: "Black Ops One", cursive;
+    writing-mode: lr-bt;
+    text-orientation: mixed;
+    background: #184d47;
+    font-weight: 800;
+    font-size: 8vw;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+.page-contain {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #184d47;
+    font-family: "Open Sans", sans-serif;
+    margin-left: -2%;
+}
+
+/*clock*/
+
+@-webkit-keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+@keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+.clock ul {
+    padding-inline-start: 0px;
+}
+
+.clock li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.clock {
+    font-size: 1vw;
+}
+@media screen and (max-width: 530px) {
+    .clock {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .clock {
+        font-size: 1.7vw;
+    }
+}
+
+.clock li span {
+    display: block;
+    font-size: 5vw;
+}
+
+
+/*   -----Sponsors-------*/
+
+.sponsors {
+    padding-left: 10vh;
+    padding-bottom: 50px;
+}
+
+.myGallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.myGallery img {
+    width: 70%;
+}
+
+@media (max-width: 520px) {
+    .sponsors {
+        padding-left: 10vh;
+        padding-bottom: 50px;
+    }
+}
+
+
+/*   -----Sponsors-------*/
